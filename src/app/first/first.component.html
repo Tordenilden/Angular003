@@ -1,0 +1,22 @@
+<p>first works!</p>
+
+jeg går en tur <br>
+{{myFirst}} Interpolation
+
+{{myArr}}
+
+<p *ngFor="let item of myArr">{{item}}</p>
+
+<ul>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+</ul>
+<!-- {{data.taste}} æv -->
+<!-- comment is ctrl + * -->
+<!-- <div *ngFor="let item of data">item this is just text</div> -->
+<div *ngFor="let item of data">{{item.taste}} and {{item.milk}}</div>
+
+<button (click)="methodName()" >click me</button>
+<button (click)="method2()" >22222</button>
+{{method2()}}
