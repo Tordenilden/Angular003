@@ -19,6 +19,9 @@ export class HeroService {
   getAllHardCode():Hero[]{
     this.heroList.push({id:1,name:"Bent",debutYear:new Date(2023,8,19)});
     this.heroList.push({id:2,name:"Bo",debutYear:new Date(2023,8,20)});
+    // does not work
+    // this.heroList.push({id:1,Name:"Bent",debutYear:new Date(2023,8,19)});
+    // this.heroList.push({id:2,Name:"Bo",debutYear:new Date(2023,8,20)});
     return this.heroList;
   }
   getAll():Observable<Hero[]>{
