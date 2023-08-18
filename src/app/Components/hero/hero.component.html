@@ -1,0 +1,8 @@
+<p>hero works!</p>
+<label for="">Id</label> {{hero.id}} <br>
+<label for="">Name</label> {{hero.name}} <br>
+<label for="">DebutYear</label> {{hero.debutYear | date}} <br>
+
+<ul *ngFor="let item of heroList">
+<li>{{item.name}}</li>
+</ul>
