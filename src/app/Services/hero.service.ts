@@ -27,5 +27,4 @@ export class HeroService {
   getAll():Observable<Hero[]>{
     return this.http.get<Hero[]>(this.apiUrl);
   }
-
 }

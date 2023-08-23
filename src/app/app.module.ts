@@ -7,13 +7,16 @@ import { FirstComponent } from './first/first.component';
 import { TestComponent } from './Components/test/test.component';
 import { HeroComponent } from './Components/hero/hero.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TaskComponent } from './Components/task/task.component';
+
 
 @NgModule({
   declarations: [ // Components
     AppComponent,
     FirstComponent,
     TestComponent,
-    HeroComponent
+    HeroComponent,
+    TaskComponent
   ],
   imports: [ // Module extern or self defined
     BrowserModule,

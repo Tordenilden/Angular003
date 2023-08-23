@@ -1,0 +1,10 @@
+<p>task works!</p>
+<input type="text" name="" id="2" #task>
+<button (click)="add(task.value)">add</button>
+<button (click)="remove(task.value)">remove</button>
+<ul *ngFor="let item of list">
+  <li>{{item.id}}</li>
+</ul>
+
+<!-- public void a(string s)
+a("hat") -->
